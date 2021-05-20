@@ -1,0 +1,20 @@
+body {
+	background: url(./mqdefault.jpg) no-repeat center center fixed;
+	background-size: cover;  
+}
+table {
+   border-collapse: collapse;
+   border: 4px black;
+}
+th, td {
+   border: 4px black;
+}
+div.box{
+	height:2200px;
+	width:800px;
+	text-align:center;
+	font-size:14px;
+	color:#090;
+	background-color:white;
+	margin-right:10px;
+}
