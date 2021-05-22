@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="Пример задач.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <meta charset="utf-8">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+     <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+          <a href="главная.html" class="brand-logo"><i class="material-icons">view_comfy</i>Home</a>
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Нажми!<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+  
+    
+  <div class="container">
+    <div class="box"> 
+    <br align="centre"><h3><b>Методические указания для решения задач,
+    <br>связанных с позиционными системами счисления.</b></h3>
+          <ul class="pagination">
+            <li class="waves-effect active"><a href="Пример задач 1.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+            <li class="waves-effect active"><a href="Пример задач 2.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+            <li class="waves-effect active"><a href="Пример задач 3.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+            <li class="waves-effect active"><a href="Пример задач 4.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+            <li class="waves-effect active"><a href="Пример задач 5.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+            <li class="waves-effect active"><a href="Пример задач 6.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+            <li class="waves-effect active"><a href="Пример задач 7.html">Ghbvth hioh oijoi joi ji jo jo joj</a></li>
+          </ul>
+          </ul>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+    
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.modal').modal();
+        $(".dropdown-trigger").dropdown({ hover: false })
+        $('ul.tabs').tabs();
+        $('.collapsible').collapsible();
+        $('.dropdown-button').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          constrainWidth: false, // Does not change width of dropdown to that of the activator
+          hover: true, // Activate on hover
+          gutter: 0, // Spacing from edge
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left', // Displays dropdown with edge aligned to the left of button
+          stopPropagation: false // Stops event propagation
+        }
+      );
+      });
+      </script>
+    </body>
+  </html>
